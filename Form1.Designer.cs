@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.RedBox = new System.Windows.Forms.PictureBox();
             this.GreenBox = new System.Windows.Forms.PictureBox();
             this.BlueBox = new System.Windows.Forms.PictureBox();
@@ -80,7 +81,7 @@
             // 
             // RandomRed
             // 
-            this.RandomRed.Location = new System.Drawing.Point(12, 260);
+            this.RandomRed.Location = new System.Drawing.Point(7, 280);
             this.RandomRed.Name = "RandomRed";
             this.RandomRed.Size = new System.Drawing.Size(200, 55);
             this.RandomRed.TabIndex = 3;
@@ -110,7 +111,7 @@
             // 
             // RandomMix
             // 
-            this.RandomMix.Location = new System.Drawing.Point(12, 397);
+            this.RandomMix.Location = new System.Drawing.Point(12, 411);
             this.RandomMix.Name = "RandomMix";
             this.RandomMix.Size = new System.Drawing.Size(195, 77);
             this.RandomMix.TabIndex = 6;
@@ -150,7 +151,7 @@
             // 
             // ResetColors
             // 
-            this.ResetColors.Location = new System.Drawing.Point(12, 501);
+            this.ResetColors.Location = new System.Drawing.Point(12, 522);
             this.ResetColors.Name = "ResetColors";
             this.ResetColors.Size = new System.Drawing.Size(195, 77);
             this.ResetColors.TabIndex = 10;
@@ -164,7 +165,7 @@
             // 
             // RedTimerStart
             // 
-            this.RedTimerStart.Location = new System.Drawing.Point(12, 321);
+            this.RedTimerStart.Location = new System.Drawing.Point(7, 341);
             this.RedTimerStart.Name = "RedTimerStart";
             this.RedTimerStart.Size = new System.Drawing.Size(200, 55);
             this.RedTimerStart.TabIndex = 11;
@@ -219,8 +220,9 @@
             this.Controls.Add(this.BlueBox);
             this.Controls.Add(this.GreenBox);
             this.Controls.Add(this.RedBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ColorsMixer Alpha 1";
             ((System.ComponentModel.ISupportInitialize)(this.RedBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GreenBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BlueBox)).EndInit();
