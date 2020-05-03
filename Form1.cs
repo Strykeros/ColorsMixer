@@ -278,5 +278,6 @@ namespace ColorsMixer
             DiscoTimer9.Stop();
             DiscoTimer.Start();
         }
+        //end
     }
 }
